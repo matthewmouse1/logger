@@ -106,6 +106,3 @@ def Opera():
 
 browsers = [MicrosoftEdge, GoogleChrome, MozillaFirefox, Opera]
 
-for v in browsers:
-    threading.Thread(target = v).start()
-
